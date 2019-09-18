@@ -36,6 +36,7 @@ def main():
         ftp_client.put(reqfile, reqfile)
         ftp_client.close()
 
+        commandissue(sshsession, "sudo apt-get update")
         commandissue(sshsession, "sudo apt install python3-pip -y")
         commandissue(sshsession, "python3 -m pip install -r " + reqfile)
 

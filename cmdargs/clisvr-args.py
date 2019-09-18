@@ -16,7 +16,6 @@ if __name__ == '__main__':
     parser.add_argument('role', choices=choices, help='which role to play')
     parser.add_argument('-p', metavar='PORT', type=int, default=1060, help='UDP port (default 1060)')
 
-print(PORT)
 print(args.p)
 
 args = parser.parse_args()

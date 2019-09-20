@@ -1,0 +1,21 @@
+INFO:09/20/2019 02:20:23 PM Scripting started!
+CRITICAL:09/20/2019 02:20:23 PM must be str, not NoneType
+INFO:09/20/2019 02:20:23 PM Program ended
+INFO:09/20/2019 02:20:53 PM Scripting started!
+CRITICAL:09/20/2019 02:20:53 PM must be str, not NoneType
+INFO:09/20/2019 02:20:53 PM Program ended
+INFO:09/20/2019 02:21:23 PM Scripting started!
+INFO:09/20/2019 02:21:25 PM API Response Code - <Response [200]>
+INFO:09/20/2019 02:21:25 PM Program ended
+INFO:09/20/2019 02:22:30 PM Scripting started!
+CRITICAL:09/20/2019 02:22:30 PM must be str, not NoneType
+INFO:09/20/2019 02:22:30 PM Program ended
+INFO:09/20/2019 02:23:45 PM Scripting started!
+CRITICAL:09/20/2019 02:23:45 PM must be str, not NoneType
+INFO:09/20/2019 02:23:45 PM Program ended
+INFO:09/20/2019 02:23:59 PM Scripting started!
+CRITICAL:09/20/2019 02:23:59 PM must be str, not NoneType
+INFO:09/20/2019 02:23:59 PM Program ended
+INFO:09/20/2019 02:24:22 PM Scripting started!
+CRITICAL:09/20/2019 02:24:22 PM must be str, not NoneType
+INFO:09/20/2019 02:24:22 PM Program ended

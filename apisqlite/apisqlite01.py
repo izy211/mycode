@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-import json
 import time
 import sqlite3
 import requests
@@ -22,7 +21,7 @@ def print_database(conn):
     cursor = conn.execute("SELECT time, price from PRICE")
     for row in cursor:
         print(f"TIME = {row[0]}")
-        print(f"PRICE = {row[1]}")
+        rint(f"PRICE = {row[1]}")
 
 def main():
     wurl = 'http://api.walmartlabs.com/v1/items?'

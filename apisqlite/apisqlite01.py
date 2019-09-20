@@ -13,13 +13,6 @@ def walmartlookup(walmarturl, mykey, upckey):
         return False
 
 def trackmeplease(tracktime, trackprice):
-    try:
-        conn.execute('''CREATE TABLE PRICE
-        (TIME   VARCHAR2 PRIMARY KEY    NOT NULL,
-        PRICE   REAL    NOT NULL);''')
-    except:
-        pass
-
     conn.execute("INSERT INTO PRICE (TIME,PRICE) VALUES (?,?)",(tracktime, trackprice))
     conn.commit()
     
@@ -40,6 +33,13 @@ def main():
     print(f"Walmart Query URL is: {wurl}{wkey}{wupc}")
     
     conn = sqlite3.connect('price.db')
+    try:
+        conn.execute('''CREATE TABLE PRICE
+        (TIME   VARCHAR2 PRIMARY KEY    NOT NULL,
+        PRICE   REAL    NOT NULL);''')
+    except:
+        pass
+
 
     decodewalmart = walmartlookup(wurl, wkey, wupc)
 
